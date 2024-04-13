@@ -1,0 +1,97 @@
+* {
+    text-decoration: none; font-family: "Aleo", serif; font-optical-sizing: auto; font-style: normal;
+}
+.resized-image {
+    width:600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.centered-text {
+    text-align: center;
+}
+.centered-text hr {
+    border-style: solid; border-color:brown; border-width: 2px;
+}
+.resized-image2 {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    margin-left: auto; margin-right: auto; background-color: rgb(255, 255, 255);
+}
+.navbar {
+    background: rgb(38, 165, 133); padding-right: 15px; padding-left: 15px;
+}
+.navdiv {
+    display: flex; align-items: center; justify-content: space-between; margin-top: -8px;
+}
+.logo a {
+    font-size: 35px; font-weight: 600; color: white;
+}
+li {
+    list-style: none; display: inline-block;
+}
+li a {
+    color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+}
+button {
+    background-color: black; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
+}
+button a {
+    color: white; font-weight: bold; font-size: 15px;
+}
+.maintext h1 {
+    font-size: 35px;
+}
+.maintext p {
+    font-weight: 500;
+}
+.maintext blockquote {
+    padding-right: 30%;
+    padding-left: 30%;
+    font-weight: 700;
+    font-size: larger;
+}
+.box {
+    display: inline-block; /* Display boxes inline */
+    vertical-align: top; /* Align boxes to the top */
+    width: 33%;
+    height: 700px;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    margin: 0; /* Remove default margin */
+    box-sizing: border-box; /* Include border in width calculation */
+    padding: 10px; /* Add padding for spacing */
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+.box img {
+        max-width: 100%; /* Ensure image doesn't exceed box width */
+        max-height: 100%; /* Ensure image doesn't exceed box height */
+  }
+.box p {
+    color: black; /* Set text color to black */
+    font-size: 25px;
+    margin-top: -0.1%;
+}
+.box h2 {
+    font-weight: 900;
+    font-size: 30px;
+    color: black;
+}
+.no-bullets {
+    list-style-type: none; /* Remove default bullet points */
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+.no-bullets li {
+    display: block;
+    padding-bottom: 5px;
+    margin-left: -6%;
+}
